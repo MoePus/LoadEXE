@@ -6,7 +6,7 @@
 int main()
 {
     DWORD hWnd;
-    std::cout << "Input hwnd (oct): ";
+    std::cout << "Input hwnd (dec): ";
     std::cin >> hWnd;
     SelfInject((HWND)hWnd);
     return 0;
